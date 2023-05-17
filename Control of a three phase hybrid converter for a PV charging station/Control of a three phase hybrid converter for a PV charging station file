@@ -1,0 +1,39 @@
+CONTROL OF A THREE-PHASE HYBRID CONVERTER FOR A PV CHARGING STATION
+
+OBJECTIVE : To simulate and control a Three phase hybrid converter for a PV Charging station using MATLAB Simulink.
+
+ABSTRACT :
+A new Hybrid Converter is proposed, to replace a DC/DC Boost converter and a DC/AC converter to reduce conversion stages and switching losses.
+The control strategies used in this project are incremental conductance method, vector control method along with fuzzy logic control.
+The control of the hybrid converter is designed to realize maximum power point tracking (MPPT) for PV, DC bus voltage regulation, and AC voltage or reactive power regulation.
+
+INTRODUCTION :
+The environmental and economic advantages of PHEV lead to the increase in number of production and consumption
+Research has been conducted on developing a charging station by integrating a three-phase ac grid.
+The comparison of different PHEV chargers topologies and techniques are reviewed. However, a large-scale penetration of PHEVs may add more pressure on the grid during charging periods.
+The charging management is developed  by considering the grid’s loading limit. 
+For this type of systems, it requires controlling at least three different power electronic converters to charge PHEVs.
+Each converter needs an individual controller, which increases complexity and power losses of the system.
+The main objective is to implement such a multi-port converter in a PV charging station for PHEVs and design the controller.
+
+PV SYSTEM :
+A PV system directly converts sunlight into electricity.
+A set of connected cells form a panel. Panels are generally composed of series cells in order to obtain large output voltages.
+A PV array may be either a panel or set of panels connected in series(or) parallel to form large PV system.
+
+PV SYSTEM MODELLING :
+PV cell is basically a semi conductor diode whose p-n junction is exposed to sun light.
+When sun light hits the PV cell it is absorbed by the semi conductor material and the absorption of sun light pushes an free electron which results in generation of electricity.
+The electricity produced from the PV array is in the form of direct current.
+ 
+HYBRID CONVERTER :
+BOOST CONVERTER :
+Boost  converter is capable of stepping up the input voltage upto certain extent when a high voltage gain is required then its boosting capacity is reduced and also its efficiency is reduced.
+In concern with achieving of high conversion ratio with high efficiency many high gain enhancement techniques were investigated.
+Inspired by all the mentioned topologies a new Hybrid Converter (HBC) with single switch and single inductor along with Bipolar Voltage multiplier.
+In comparison with all the said topologies, this HBC topology has smaller output ripple and higher components utilization rate with respect to conversion ratio. 
+
+CONCLUSION :
+The three-phase HBC can save switching loss by integration a dc/dc booster and a dc/ac converter into a single converter structure. A new control for the three-phase HBC is designed to achieve MPPT,
+dc voltage regulation and reactive power tracking. The MPPT control utilizes modified incremental conductance-PI based MPPT method. 	
+
