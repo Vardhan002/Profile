@@ -1,0 +1,44 @@
+COIN BASED MOBILE CHARGER
+
+INTRODUCTION :
+This is the smart coin based mobile charging system that charges your mobile for particular amount of time on inserting a coin.
+The system is to be used by shop owners, public places like railway stations to provide mobile charging facility. 
+So the system consists of a coin recognition module that recognizes valid coin is found it signals the microcontroller for further action.
+if a valid coin is found it signals the microcontroller and microcontroller then starts the mobile charging mechanism providing a 5v supply through a power supply 
+through a power supply section to the mobile phone, now systems also needs to monitor the amount of charging to be provided
+So the system can be used for smart mobile charging at public places.
+
+OBJECTIVE :
+The objective of this project is inserting the coin using charge for your mobile phone in public places. 
+This project is very useful to people who are all using mobile phone without charging condition in public places.
+In this project, who are all using mobile phones in outside of home are office without charging condition.
+The coin based mobile phone charger is very useful to that person for using coin to charge for that mobile.
+The major action in this system is controlled by transmitter section; this section consists of IR transmitter and IR receiver.
+Here we need to generate IR frequency continuously. 
+So that by using a small tiny microcontroller frequency is produced and is connected IR receiver continuously receives the signals from the transmitter.
+Whenever the light path in between IR transmitter and IR receiver cuts by an obstacle receiver signal gives low to high pulse.
+By to the IR led to generate IR light rays of 38 KHz frequency. Connecting the receiver output to the micro controller interrupt pin,
+it gives interrupt to the micro controller immediately the system gives the buzzer and sends the message to the display on LCD display to the micro controller.
+
+COMPONENTS USED :
+8051 Microcontroller 
+Relay
+LCD 
+Infrared Transmittor and Receiver
+Transistor
+Voltage Regulator
+
+WORKING:
+This project is inserting the coin using charge for your mobile phone in public places.This project is very useful to people who are all using mobile phone without charging condition in public places.
+In this project, who are all using mobile phones in outside of home are office without charging condition. 
+The coin based mobile phone charger is very useful to that person for using coin to charge for that mobile.
+A sensor system is used to detect the presence of coin. It may be of different type (IR sensor, Using LDR etc...). 
+The coin is inserted between the transmitted and received signal.
+When a signal came from sensor unit, the microcontroller activates the charger unit for a predefined time. 
+After that it will reset to normal case. Driver circuit is used for provide the sufficient input voltage of relay. 
+The relay will on to activate the 230v charger, we will use charger to charge for our mobile phone.
+The major action in this system is controlled by transmitter section; this section consists of IR transmitter and IR receiver.
+Here we need to generate IR frequency continuously. 
+So that by using a small tiny microcontroller frequency is produced and is connected to the IR led to generate IR light rays of 38 KHZ frequency.
+
+
